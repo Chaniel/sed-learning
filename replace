@@ -1,0 +1,8 @@
+sed 's/pattern/replace_string/' file
+# or
+cat file | sed 's/pattern/replace_string/'
+
+
+
+# replace all matched lines
+sed 's/pattern/replace_string/g' file
