@@ -6,3 +6,7 @@ cat file | sed 's/pattern/replace_string/'
 
 # replace all matched lines
 sed 's/pattern/replace_string/g' file
+
+
+# match line contains second, replace it to new line
+sed '/second/c\new line' file
