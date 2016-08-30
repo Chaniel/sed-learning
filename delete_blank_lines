@@ -1,1 +1,1 @@
-sed 's/^$/d' file
+sed '/^$/d' file
